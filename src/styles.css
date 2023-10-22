@@ -3,12 +3,12 @@ font-family: 'Noto Serif JP', serif;*/
 :root{
   --defaul-font: 'DM Sans', sans-serif;
   --heading-font: 'Noto Serif JP', serif;
-  --text-color: #cbd3c9;
+  --text-color: #22271e;
   
 }
 body{
   font-family: var(--defaul-font);
-  background-color: #090a08;
+  background-color: #cbd3c9;
   color: var(--text-color);
   text-align: center;
 }
@@ -32,7 +32,7 @@ a{
 }
 
 .button{
-  background-color: rgba(26, 66, 13, 0.5);
+  background-color: rgba(19, 62, 5, 0.7);
   color: var(--text-color);
   text-decoration: none;
   padding: 20px;
@@ -41,5 +41,5 @@ a{
 }
 
 .button:hover{
-  background-color: rgba(17, 40, 10, 0.5);
+  background-color: rgba(17, 40, 10, 0.7);
 }
