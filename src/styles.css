@@ -4,6 +4,7 @@ font-family: 'Noto Serif JP', serif;*/
   --defaul-font: 'DM Sans', sans-serif;
   --heading-font: 'Noto Serif JP', serif;
   --text-color: #22271e;
+  --box-shadow: 5px 5px 5px #5a6756;
   
 }
 body{
@@ -37,7 +38,7 @@ a{
   text-decoration: none;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #151b13;
+  box-shadow: var(--box-shadow);
 }
 
 .button:hover{
