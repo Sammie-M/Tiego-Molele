@@ -2,7 +2,12 @@
 font-family: 'Noto Serif JP', serif;*/
 
 body{
+  font-family: 'DM Sans', sans-serif;
   background-color: black;
   color: antiquewhite;
   text-align: center;
+}
+
+h1{
+  font-family: 'Noto Serif JP', serif;
 }
