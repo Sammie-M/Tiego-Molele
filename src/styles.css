@@ -14,9 +14,16 @@ body{
   text-align: center;
 }
 
-main{
-  margin: 100px auto;
-  
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+li{
+  display: inline-block;
+  list-style: none;
 }
 
 h1{
@@ -30,6 +37,15 @@ p{
 
 a{
   margin: 30px;
+}
+
+.logo{
+  width: 150px;
+  
+}
+.main{
+  margin: 100px auto;
+  width: 60%;
 }
 
 .button{
