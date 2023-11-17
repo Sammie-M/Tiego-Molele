@@ -96,6 +96,27 @@ a:active{
   text-decoration: underline;
 }
 
+.toResume{
+  background-color: var(--primary-color);
+  opacity: 0.8;
+}
+
+.toContact{
+  border: 1px solid var(--primary-color);
+}
+
+.toResume:hover{
+  border: 1px solid var(--primary-color);
+}
+
+.toContact:hover{
+  background-color: var(--primary-color);
+}
+
+.cv{
+  margin: 0 auto;
+}
+
 .openSource{
   margin-top: 5%;
 }
